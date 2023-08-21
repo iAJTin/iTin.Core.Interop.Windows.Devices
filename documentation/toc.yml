@@ -1,0 +1,327 @@
+﻿toc:
+  - name: iTin.Core.Interop.Windows.Devices
+    link: iTin.Core.Interop.Windows.Devices
+    subfolderitems:
+    - name: DiGetClassFlags
+      link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/DiGetClassFlags
+    - name: DiGetDeviceRegistryProperty
+      link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/DiGetDeviceRegistryProperty
+    - name: DiOpenClassFlags
+      link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/DiOpenClassFlags
+    - name: NativeMethods
+      link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/NativeMethods
+      subfolderitems:
+      - name: SetupDiClassNameFromGuid
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/NativeMethods/SetupDiClassNameFromGuid
+      - name: SetupDiDestroyDeviceInfoList
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/NativeMethods/SetupDiDestroyDeviceInfoList
+      - name: SetupDiEnumDeviceInfo
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/NativeMethods/SetupDiEnumDeviceInfo
+      - name: SetupDiGetClassDevs
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/NativeMethods/SetupDiGetClassDevs
+      - name: SetupDiGetClassDevsEx
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/NativeMethods/SetupDiGetClassDevsEx
+      - name: SetupDiGetDeviceInstanceId
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/NativeMethods/SetupDiGetDeviceInstanceId
+      - name: SetupDiGetDeviceRegistryProperty
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/NativeMethods/SetupDiGetDeviceRegistryProperty
+      - name: SetupDiOpenClassRegKeyEx
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/NativeMethods/SetupDiOpenClassRegKeyEx
+      - name: SetupDiOpenDevRegKey
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/NativeMethods/SetupDiOpenDevRegKey
+    - name: SP_DEVINFO_DATA
+      link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/SP_DEVINFO_DATA
+      subfolderitems:
+      - name: Equals
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/SP_DEVINFO_DATA/Equals
+      - name: op_Equality
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/SP_DEVINFO_DATA/op_Equality
+      - name: op_Inequality
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/SP_DEVINFO_DATA/op_Inequality
+      - name: GetHashCode
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/SP_DEVINFO_DATA/GetHashCode
+      - name: ToString
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/SP_DEVINFO_DATA/ToString
+      - name: cbSize
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/SP_DEVINFO_DATA/cbSize
+      - name: classGuid
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/SP_DEVINFO_DATA/classGuid
+      - name: devInst
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/SP_DEVINFO_DATA/devInst
+      - name: reserved
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/SP_DEVINFO_DATA/reserved
+      - name: Empty
+        link: iTin.Core.Interop.Shared.Windows.Development.DeviceAndDriverInstallation.SetupApi/SP_DEVINFO_DATA/Empty
+    - name: DEVMODE
+      link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE
+      subfolderitems:
+      - name: Equals
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/Equals
+      - name: GetHashCode
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/GetHashCode
+      - name: ToString
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/ToString
+      - name: op_Equality
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/op_Equality
+      - name: op_Inequality
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/op_Inequality
+      - name: dmDeviceName
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmDeviceName
+      - name: dmSpecVersion
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmSpecVersion
+      - name: dmDriverVersion
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmDriverVersion
+      - name: dmSize
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmSize
+      - name: dmDriverExtra
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmDriverExtra
+      - name: dmFields
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmFields
+      - name: dmPosition
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmPosition
+      - name: dmDisplayOrientation
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmDisplayOrientation
+      - name: dmDisplayFixedOutput
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmDisplayFixedOutput
+      - name: dmColor
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmColor
+      - name: dmDuplex
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmDuplex
+      - name: dmYResolution
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmYResolution
+      - name: dmTTOption
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmTTOption
+      - name: dmCollate
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmCollate
+      - name: dmFormName
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmFormName
+      - name: dmLogPixels
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmLogPixels
+      - name: dmBitsPerPel
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmBitsPerPel
+      - name: dmPelsWidth
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmPelsWidth
+      - name: dmPelsHeight
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmPelsHeight
+      - name: dmDisplayFlags
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmDisplayFlags
+      - name: dmNup
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmNup
+      - name: dmDisplayFrequency
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/dmDisplayFrequency
+      - name: Empty
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/Empty
+      - name: ENUM_CURRENT_SETTINGS
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/ENUM_CURRENT_SETTINGS
+      - name: ENUM_REGISTRY_SETTINGS
+        link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE/ENUM_REGISTRY_SETTINGS
+    - name: DEVMODE.DM
+      link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE.DM
+    - name: DEVMODE.DisplayFlags
+      link: iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint/DEVMODE.DisplayFlags
+    - name: NativeMethods
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods
+      subfolderitems:
+      - name: ChangeDisplaySettings
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods/ChangeDisplaySettings
+      - name: ChangeDisplaySettingsEx
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods/ChangeDisplaySettingsEx
+      - name: CreateDC
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods/CreateDC
+      - name: DeleteDC
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods/DeleteDC
+      - name: EnumDisplayDevices
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods/EnumDisplayDevices
+      - name: EnumDisplaySettings
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods/EnumDisplaySettings
+      - name: EnumDisplaySettingsEx
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods/EnumDisplaySettingsEx
+      - name: GetDeviceCaps
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods/GetDeviceCaps
+    - name: DISPLAY_DEVICE
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE
+      subfolderitems:
+      - name: Equals
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/Equals
+      - name: op_Equality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/op_Equality
+      - name: op_Inequality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/op_Inequality
+      - name: GetHashCode
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/GetHashCode
+      - name: ToString
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/ToString
+      - name: cb
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/cb
+      - name: DeviceName
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/DeviceName
+      - name: DeviceString
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/DeviceString
+      - name: State
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/State
+      - name: DeviceID
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/DeviceID
+      - name: DeviceKey
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/DeviceKey
+      - name: Empty
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/Empty
+      - name: EDD_GET_DEVICE_INTERFACE_NAME
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE/EDD_GET_DEVICE_INTERFACE_NAME
+    - name: NativeMethods.ChangeDisplaySettingsFlags
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods.ChangeDisplaySettingsFlags
+    - name: NativeMethods.DISP_CHANGE
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods.DISP_CHANGE
+    - name: NativeMethods.DeviceCap
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods.DeviceCap
+    - name: NativeMethods.EnumDisplayFlags
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods.EnumDisplayFlags
+      subfolderitems:
+      - name: EDS_NORMAL
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods.EnumDisplayFlags/EDS_NORMAL
+      - name: EDS_RAWMODE
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods.EnumDisplayFlags/EDS_RAWMODE
+      - name: EDS_ROTATEDMODE
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/NativeMethods.EnumDisplayFlags/EDS_ROTATEDMODE
+    - name: DISPLAY_DEVICE.KnownDisplayDeviceStates
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.DeviceContext/DISPLAY_DEVICE.KnownDisplayDeviceStates
+    - name: POINTL
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles/POINTL
+      subfolderitems:
+      - name: Equals
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles/POINTL/Equals
+      - name: op_Implicit
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles/POINTL/op_Implicit
+      - name: op_Equality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles/POINTL/op_Equality
+      - name: op_Inequality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles/POINTL/op_Inequality
+      - name: GetHashCode
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles/POINTL/GetHashCode
+      - name: ToString
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles/POINTL/ToString
+      - name: POINTL
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles/POINTL/POINTL
+      - name: X
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles/POINTL/X
+      - name: Y
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles/POINTL/Y
+    - name: NativeMethods
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/NativeMethods
+      subfolderitems:
+      - name: EnumDisplayMonitors
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/NativeMethods/EnumDisplayMonitors
+      - name: GetMonitorInfo
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/NativeMethods/GetMonitorInfo
+      - name: MonitorFromPoint
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/NativeMethods/MonitorFromPoint
+      - name: MonitorFromRect
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/NativeMethods/MonitorFromRect
+      - name: MonitorFromWindow
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/NativeMethods/MonitorFromWindow
+    - name: MONITORINFO
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFO
+      subfolderitems:
+      - name: Equals
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFO/Equals
+      - name: op_Equality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFO/op_Equality
+      - name: op_Inequality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFO/op_Inequality
+      - name: GetHashCode
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFO/GetHashCode
+      - name: ToString
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFO/ToString
+      - name: Create
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFO/Create
+      - name: Size
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFO/Size
+      - name: Monitor
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFO/Monitor
+      - name: WorkArea
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFO/WorkArea
+      - name: Flags
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFO/Flags
+    - name: MONITORINFOEX
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX
+      subfolderitems:
+      - name: Equals
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/Equals
+      - name: op_Equality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/op_Equality
+      - name: op_Inequality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/op_Inequality
+      - name: GetHashCode
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/GetHashCode
+      - name: ToString
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/ToString
+      - name: Size
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/Size
+      - name: Monitor
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/Monitor
+      - name: WorkArea
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/WorkArea
+      - name: Flags
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/Flags
+      - name: DeviceName
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/DeviceName
+      - name: Empty
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/Empty
+      - name: MONITORINFOF_PRIMARY
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/MONITORINFOEX/MONITORINFOF_PRIMARY
+    - name: NativeMethods.MonitorOptions
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/NativeMethods.MonitorOptions
+    - name: NativeMethods.MonitorEnumCallBack
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.MultipleDisplayMonitors/NativeMethods.MonitorEnumCallBack
+    - name: POINT
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/POINT
+      subfolderitems:
+      - name: Equals
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/POINT/Equals
+      - name: op_Implicit
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/POINT/op_Implicit
+      - name: op_Equality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/POINT/op_Equality
+      - name: op_Inequality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/POINT/op_Inequality
+      - name: GetHashCode
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/POINT/GetHashCode
+      - name: ToString
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/POINT/ToString
+      - name: POINT
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/POINT/POINT
+      - name: X
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/POINT/X
+      - name: Y
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/POINT/Y
+    - name: RECT
+      link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT
+      subfolderitems:
+      - name: Equals
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT/Equals
+      - name: op_Implicit
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT/op_Implicit
+      - name: op_Equality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT/op_Equality
+      - name: op_Inequality
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT/op_Inequality
+      - name: GetHashCode
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT/GetHashCode
+      - name: ToString
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT/ToString
+      - name: RECT
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT/RECT
+      - name: Left
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT/Left
+      - name: Top
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT/Top
+      - name: Right
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT/Right
+      - name: Bottom
+        link: iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles/RECT/Bottom
+    - name: NativeMethods
+      link: iTin.Core.Interop.Shared.Windows.Development.Registry/NativeMethods
+      subfolderitems:
+      - name: RegQueryValue
+        link: iTin.Core.Interop.Shared.Windows.Development.Registry/NativeMethods/RegQueryValue
+      - name: RegQueryValueEx
+        link: iTin.Core.Interop.Shared.Windows.Development.Registry/NativeMethods/RegQueryValueEx
