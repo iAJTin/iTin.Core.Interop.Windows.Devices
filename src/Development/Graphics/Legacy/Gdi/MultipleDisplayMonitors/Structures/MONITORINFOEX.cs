@@ -69,7 +69,7 @@ public struct MONITORINFOEX : IEquatable<MONITORINFOEX>
     /// </summary>
     /// <param name="other"> Structure to be compared with this structure.</param>
     /// <returns>
-    /// Returns <b>true</b> if the current structure is equal to the <c>other</c> parameter; otherwise, <b>false</b>.
+    /// Returns <see langword="true"/> if the current structure is equal to the <c>other</c> parameter; otherwise <see langword="false"/>.
     /// </returns>
     public bool Equals(MONITORINFOEX other) => other.Equals((object)this);
 
@@ -83,7 +83,7 @@ public struct MONITORINFOEX : IEquatable<MONITORINFOEX>
     /// <param name="operator1">Operating 1.</param>
     /// <param name="operator2">Operating 2.</param>
     /// <returns>
-    /// Returns <b>true</b> if <c>operator1</c> is equal to <c>operator2</c>; <b>false</b> otherwise.
+    /// Returns <see langword="true"/> if <c>operator1</c> is equal to <c>operator2</c>; otherwise <see langword="false"/>.
     /// </returns>
     public static bool operator ==(MONITORINFOEX operator1, MONITORINFOEX operator2) => operator1.Equals(operator2);
 
@@ -93,7 +93,7 @@ public struct MONITORINFOEX : IEquatable<MONITORINFOEX>
     /// <param name = "operator1">Operating 1.</param>
     /// <param name = "operator2">Operating 2.</param>
     /// <returns>
-    /// Returns <b>true</b> if <c>operator1</c> is not equal to <c>operator2</c>; <b>false</b> otherwise.
+    /// Returns <see langword="true"/> if <c>operator1</c> is not equal to <c>operator2</c>; otherwise <see langword="false"/>.
     /// </returns>
     public static bool operator !=(MONITORINFOEX operator1, MONITORINFOEX operator2) => !operator1.Equals(operator2);
 
@@ -110,21 +110,10 @@ public struct MONITORINFOEX : IEquatable<MONITORINFOEX>
 
     #region public override methods
 
-    /// <summary>
-    /// Returns a value that represents the hash code of this structure.
-    /// </summary>
-    /// <returns>
-    /// Hash code.
-    /// </returns>
+    /// <inheritdoc/>
     public override int GetHashCode() => ToString().GetHashCode();
 
-    /// <summary>
-    /// Returns a value that indicates whether this structure is the same as another.
-    /// </summary>
-    /// <param name="obj"> Structure to compare.</param>
-    /// <returns>
-    /// Result of the equality comparison.
-    /// </returns>
+    /// <inheritdoc/>
     public override bool Equals(object obj)
     {
         if (obj is not MONITORINFOEX other)
@@ -139,13 +128,8 @@ public struct MONITORINFOEX : IEquatable<MONITORINFOEX>
             other.DeviceName == DeviceName;
     }
 
-    /// <summary>
-    /// Returns a string that represents the current <see cref="MONITORINFOEX"/> structure.
-    /// </summary>
-    /// <returns>
-    /// String representing the current <see cref="MONITORINFOEX"/> structure.
-    /// </returns>
-    public override string ToString() => $"DeviceName = {DeviceName}";
+    /// <inheritdoc/>
+    public override string ToString() => $"DeviceName = \"{DeviceName}\"";
 
     #endregion
 }

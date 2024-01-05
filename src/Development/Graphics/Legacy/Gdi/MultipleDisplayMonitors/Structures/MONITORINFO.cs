@@ -49,7 +49,7 @@ public struct MONITORINFO : IEquatable<MONITORINFO>
     /// </summary>
     /// <param name="other">Object to be compared with this object.</param>
     /// <returns>
-    /// Returns <b>true</b> if the current object is equal to the <c>other</c> parameter; otherwise, <b>false</b>.
+    /// Returns <see langword="true"/> if the current object is equal to the <c>other</c> parameter; otherwise <see langword="false"/>.
     /// </returns>
     public bool Equals(MONITORINFO other) => other.Equals((object)this);
 
@@ -63,7 +63,7 @@ public struct MONITORINFO : IEquatable<MONITORINFO>
     /// <param name="deviceInfo1">Operand 1.</param>
     /// <param name="deviceInfo2">Operand 2.</param>
     /// <returns>
-    /// Returns <b>true</b> if <c>deviceInfo1</c> is equal to <c>deviceInfo2</c>; <b>false</b> otherwise.
+    /// Returns <see langword="true"/> if <c>deviceInfo1</c> is equal to <c>deviceInfo2</c>; otherwise <see langword="false"/>.
     /// </returns>
     public static bool operator ==(MONITORINFO deviceInfo1, MONITORINFO deviceInfo2) => deviceInfo1.Equals(deviceInfo2);
 
@@ -73,7 +73,7 @@ public struct MONITORINFO : IEquatable<MONITORINFO>
     /// <param name="deviceInfo1">Operand 1.</param>
     /// <param name="deviceInfo2">Operand 2.</param>
     /// <returns>
-    /// Returns <b>true</b> if <c>deviceInfo1</c> is not equal to <c>deviceInfo2</c>; <b>false</b> otherwise.
+    /// Returns <see langword="true"/> if <c>deviceInfo1</c> is not equal to <c>deviceInfo2</c>; otherwise <see langword="false"/>.
     /// </returns>
     public static bool operator !=(MONITORINFO deviceInfo1, MONITORINFO deviceInfo2) => !deviceInfo1.Equals(deviceInfo2);
 
@@ -102,21 +102,10 @@ public struct MONITORINFO : IEquatable<MONITORINFO>
 
     #region public override methods
 
-    /// <summary>
-    /// Returns the hash code of the object.
-    /// </summary>
-    /// <returns>
-    /// Hash code.
-    /// </returns>
+    /// <inheritdoc/>
     public override int GetHashCode() => WorkArea.GetHashCode() ^ (int)Flags;
 
-    /// <summary>
-    /// Returns a value that indicates whether this object is equal to another.
-    /// </summary>
-    /// <param name="obj">Object to compare.</param>
-    /// <returns>
-    /// Equality result.
-    /// </returns>
+    /// <inheritdoc/>
     public override bool Equals(object obj)
     {
         if (obj is not MONITORINFO other)
@@ -130,12 +119,7 @@ public struct MONITORINFO : IEquatable<MONITORINFO>
             other.Flags == Flags;
     }
 
-    /// <summary>
-    /// Returns a string that represents the current <see cref="MONITORINFO"/> object.
-    /// </summary>
-    /// <returns>
-    /// String representing the current object.
-    /// </returns>
+    /// <inheritdoc/>
     public override string ToString() => WorkArea.ToString();
 
     #endregion
@@ -143,7 +127,7 @@ public struct MONITORINFO : IEquatable<MONITORINFO>
     #region private members
 
     /// <summary>
-    /// Initialize the structure internally, call <b>always</b> before using in an API call.
+    /// Initialize the structure internally, call <strong>always</strong> before using in an API call.
     /// </summary>
     private void Init()
     {

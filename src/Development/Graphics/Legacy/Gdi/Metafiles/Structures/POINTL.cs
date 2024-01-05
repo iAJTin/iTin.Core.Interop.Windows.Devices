@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 namespace iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles;
 
 /// <summary>
-/// The <b>POINTL</b> structure contains the coordinates of a point.
+/// The <strong>POINTL</strong> structure contains the coordinates of a point.
 /// </summary>
 [StructLayout(LayoutKind.Sequential)]
 public struct POINTL : IEquatable<POINTL>
@@ -79,7 +79,7 @@ public struct POINTL : IEquatable<POINTL>
     /// <param name="deviceInfo1">Operand 1.</param>
     /// <param name="deviceInfo2">Operand 2.</param>
     /// <returns>
-    /// Returns <b>true</b> if <c>deviceInfo1</c> is equal to <c>deviceInfo2</c>; <b>false</b> otherwise.
+    /// Returns <see langword="true"/> if <c>deviceInfo1</c> is equal to <c>deviceInfo2</c>; otherwise <see langword="false"/>.
     /// </returns>
     public static bool operator ==(POINTL deviceInfo1, POINTL deviceInfo2) => deviceInfo1.Equals(deviceInfo2);
 
@@ -88,28 +88,19 @@ public struct POINTL : IEquatable<POINTL>
     /// </summary>
     /// <param name="deviceInfo1">Operand 1.</param>
     /// <param name="deviceInfo2">Operand 2.</param>
-    /// Returns <b>true</b> if <c>deviceInfo1</c> is not equal to <c>deviceInfo2</c>; <b>false</b> otherwise.
+    /// <returns>
+    /// Returns <see langword="true"/> if <c>deviceInfo1</c> is not equal to <c>deviceInfo2</c>; otherwise <see langword="false"/>.
+    /// </returns>
     public static bool operator !=(POINTL deviceInfo1, POINTL deviceInfo2) => !deviceInfo1.Equals(deviceInfo2);
 
     #endregion
 
     #region public overrides methods
 
-    /// <summary>
-    /// Returns the hash code of this structure.
-    /// </summary>
-    /// <returns>
-    /// Hash code.
-    /// </returns>
+    /// <inheritdoc/>
     public override int GetHashCode() => X ^ Y;
 
-    /// <summary>
-    /// Returns a value that indicates whether this object is equal to another.
-    /// </summary>
-    /// <param name="obj">Object to compare.</param>
-    /// <returns>
-    /// Equality result.
-    /// </returns>
+    /// <inheritdoc/>
     public override bool Equals(object obj)
     {
         if (obj is not POINTL other)
@@ -120,12 +111,7 @@ public struct POINTL : IEquatable<POINTL>
         return other.X == X && other.Y == Y;
     }
 
-    /// <summary>
-    /// Returns a string that represents the current <see cref="POINTL"/> object.
-    /// </summary>
-    /// <returns>
-    /// String representing the current <see cref="POINTL"/> structure.
-    /// </returns>
+    /// <inheritdoc/>
     public override string ToString() => $"X = {X}, Y = {Y}";
 
     #endregion

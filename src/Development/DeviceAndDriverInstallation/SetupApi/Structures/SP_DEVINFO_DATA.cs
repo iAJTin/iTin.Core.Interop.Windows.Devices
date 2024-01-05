@@ -70,7 +70,7 @@ public struct SP_DEVINFO_DATA : IEquatable<SP_DEVINFO_DATA>
     /// <param name="left">Operand 1.</param>
     /// <param name="right">Operand 2.</param>
     /// <returns>
-    /// Returns <b>true</b> if <c>deviceInfo1</c> is equal to <c>deviceInfo2</c>; <b>false</b> otherwise.
+    /// Returns <see langword="true"/> if <c>deviceInfo1</c> is equal to <c>deviceInfo2</c>; otherwise <see langword="false"/>.
     /// </returns>
     public static bool operator ==(SP_DEVINFO_DATA left, SP_DEVINFO_DATA right) => left.Equals(right);
 
@@ -80,7 +80,7 @@ public struct SP_DEVINFO_DATA : IEquatable<SP_DEVINFO_DATA>
     /// <param name="left">Operand 1.</param>
     /// <param name="right">Operand 2.</param>
     /// <returns>
-    /// Returns <b>true</b> if <c>deviceInfo1</c> is not equal to <c>deviceInfo2</c>; <b>false</b> otherwise.
+    /// Returns <see langword="true"/> if <c>deviceInfo1</c> is not equal to <c>deviceInfo2</c>; otherwise <see langword="false"/>.
     /// </returns>
     public static bool operator !=(SP_DEVINFO_DATA left, SP_DEVINFO_DATA right) => left.Equals(right);
 
@@ -88,21 +88,10 @@ public struct SP_DEVINFO_DATA : IEquatable<SP_DEVINFO_DATA>
 
     #region public override methods
 
-    /// <summary>
-    /// Returns the hash code of the structure.
-    /// </summary>
-    /// <returns>
-    /// Hash code.
-    /// </returns>
+    /// <inheritdoc/>
     public override int GetHashCode() => cbSize.GetHashCode() ^ classGuid.GetHashCode() ^ devInst.GetHashCode() ^ reserved.GetHashCode();
 
-    /// <summary>
-    /// Returns a value that indicates whether this object is equal to another.
-    /// </summary>
-    /// <param name="obj">Object to compare.</param>
-    /// <returns>
-    /// Equality result.
-    /// </returns>
+    /// <inheritdoc/>
     public override bool Equals(object obj)
     {
         if (obj is not SP_DEVINFO_DATA other)
@@ -117,12 +106,7 @@ public struct SP_DEVINFO_DATA : IEquatable<SP_DEVINFO_DATA>
             other.reserved == reserved;
     }
 
-    /// <summary>
-    /// Returns a string that represents the current object.
-    /// </summary>
-    /// <returns>
-    /// Returns a string that represents the current object.
-    /// </returns>
+    /// <inheritdoc/>
     public override string ToString() => $"ClassGuid = {classGuid}";        
 
     #endregion

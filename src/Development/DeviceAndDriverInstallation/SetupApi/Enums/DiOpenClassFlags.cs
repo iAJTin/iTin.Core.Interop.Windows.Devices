@@ -10,12 +10,12 @@ using System;
 public enum DiOpenClassFlags : uint
 {
     /// <summary>
-    /// Open a configuration class key. If ClassGuid is <c>null</c>, open the root key of the class installer's branch.
+    /// Open a configuration class key. If ClassGuid is <see langword="null"/>, open the root key of the class installer's branch.
     /// </summary>
     DIOCR_INSTALLER = 0x00000001,
 
     /// <summary>
-    /// Open an interface class key. If ClassGuid is <c>null</c>, open the root key of the interface class branch.
+    /// Open an interface class key. If ClassGuid is <see langword="null"/>, open the root key of the interface class branch.
     /// </summary>
     DIOCR_INTERFACE = 0x00000002
 }

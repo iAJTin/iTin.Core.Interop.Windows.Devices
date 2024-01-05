@@ -61,7 +61,7 @@ public struct RECT : IEquatable<RECT>
     /// </summary>
     /// <param name="other">Object to be compared with this object.</param>
     /// <returns>
-    /// Returns <b>true</b> if the current object is equal to the <c>other</c> parameter; otherwise, <b>false</b>.
+    /// Returns <see langword="true"/> if the current object is equal to the <c>other</c> parameter; otherwise <see langword="false"/>.
     /// </returns>
     public bool Equals(RECT other) => other.Equals((object)this);
 
@@ -99,7 +99,7 @@ public struct RECT : IEquatable<RECT>
     /// <param name="deviceInfo1">Operand 1.</param>
     /// <param name="deviceInfo2">Operand 2.</param>
     /// <returns>
-    /// Returns <b>true</b> if <c>deviceInfo1</c> is equal to <c>deviceInfo2</c>; <b>false</b> otherwise.
+    /// Returns <see langword="true"/> if <c>deviceInfo1</c> is equal to <c>deviceInfo2</c>; otherwise <see langword="false"/>.
     /// </returns>
     public static bool operator ==(RECT deviceInfo1, RECT deviceInfo2) => deviceInfo1.Equals(deviceInfo2);
 
@@ -109,7 +109,7 @@ public struct RECT : IEquatable<RECT>
     /// <param name="deviceInfo1">Operand 1.</param>
     /// <param name="deviceInfo2">Operand 2.</param>
     /// <returns>
-    /// Returns <b>true</b> if <c>deviceInfo1</c> is not equal to <c>deviceInfo2</c>; <b>false</b> otherwise.
+    /// Returns <see langword="true"/> if <c>deviceInfo1</c> is not equal to <c>deviceInfo2</c>; otherwise <see langword="false"/>.
     /// </returns>
     public static bool operator !=(RECT deviceInfo1, RECT deviceInfo2) => !deviceInfo1.Equals(deviceInfo2);
 
@@ -119,21 +119,10 @@ public struct RECT : IEquatable<RECT>
 
     #region public override methods
 
-    /// <summary>
-    /// Returns the hash code of the object.
-    /// </summary>
-    /// <returns>
-    /// Hash code.
-    /// </returns>
+    /// <inheritdoc/>
     public override int GetHashCode() => Left ^ Top ^ Right ^ Bottom;
 
-    /// <summary>
-    /// Returns a value that indicates whether this object is equal to another.
-    /// </summary>
-    /// <param name="obj">Object to compare.</param>
-    /// <returns>
-    /// Equality result.
-    /// </returns>
+    /// <inheritdoc/>
     public override bool Equals(object obj)
     {
         if (obj is not RECT other)
@@ -148,12 +137,7 @@ public struct RECT : IEquatable<RECT>
             other.Bottom == Bottom;
     }
 
-    /// <summary>
-    /// Returns a string that represents the current <see cref="RECT"/> object.
-    /// </summary>
-    /// <returns>
-    /// String representing the current <see cref="RECT" /> object.
-    /// </returns>
+    /// <inheritdoc/>
     public override string ToString() => $"Left = {Left}, Top = {Top}, Right = {Right}, Bottom = {Bottom}";
 
     #endregion

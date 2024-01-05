@@ -7,7 +7,7 @@ using iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Metafiles
 namespace iTin.Core.Interop.Shared.Windows.Development.DocumentAndPrinting.Printing.GdiPrint;
 
 /// <summary>
-/// La estructura de datos <strong>DEVMODE</strong> contiene información para la inicialización de una impresora o un dispositivo de visualización.
+/// The <strong>DEVMODE</strong> data structure contains information for initializing a printer or display device.
 /// </summary>
 /// <remarks>
 /// Para más información, ver http://msdn.microsoft.com/es-es/library/dd183565.aspx.
@@ -32,7 +32,7 @@ public struct DEVMODE : IEquatable<DEVMODE>
     #region Enums
 
     /// <summary>
-    /// Enumeración de miembros de una estructura de tipo <see cref="DEVMODE"/>.
+    /// Enumeration of members of a structure of type <see cref="DEVMODE"/>.
     /// </summary>
     /// <remarks>
     /// Para más información, ver sección <strong>dmFields</strong> de http://msdn.microsoft.com/es-es/library/dd183565.aspx.

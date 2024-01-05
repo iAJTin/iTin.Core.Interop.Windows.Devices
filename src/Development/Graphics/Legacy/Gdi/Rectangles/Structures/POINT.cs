@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 namespace iTin.Core.Interop.Shared.Windows.Development.Graphics.Legacy.Gdi.Rectangles;
 
 /// <summary>
-/// The <b>POINT</b> structure contains the coordinates of a point.
+/// The <strong>POINT</strong> structure contains the coordinates of a point.
 /// </summary>
 [StructLayout(LayoutKind.Sequential)]
 public struct POINT : IEquatable<POINT>
@@ -28,7 +28,7 @@ public struct POINT : IEquatable<POINT>
     #region constructor/s
 
     /// <summary>
-    /// Initializes a new instance of the <see cref = "POINT" /> structure.
+    /// Initializes a new instance of the <see cref="POINT"/> structure.
     /// </summary>
     /// <param name="x">X coordinate of the point.</param>
     /// <param name="y">y coordinate of the point.</param>
@@ -47,7 +47,7 @@ public struct POINT : IEquatable<POINT>
     /// </summary>
     /// <param name="other">Object to be compared with this object.</param>
     /// <returns>
-    /// Returns <b>true</b> if the current object is equal to the <c>other</c> parameter; otherwise, <b>false</b>.
+    /// Returns <see langword="true"/> if the current object is equal to the <c>other</c> parameter; otherwise <see langword="false"/>.
     /// </returns>
     public bool Equals(POINT other) => other.Equals((object)this);
 
@@ -85,7 +85,7 @@ public struct POINT : IEquatable<POINT>
     /// <param name="deviceInfo1">Operand 1.</param>
     /// <param name="deviceInfo2">Operand 2.</param>
     /// <returns>
-    /// Returns <b>true</b> if <c>deviceInfo1</c> is equal to <c>deviceInfo2</c>; <b>false</b> otherwise.
+    /// Returns <see langword="true"/> if <c>deviceInfo1</c> is equal to <c>deviceInfo2</c>; otherwise <see langword="false"/>.
     /// </returns>
     public static bool operator ==(POINT deviceInfo1, POINT deviceInfo2) => deviceInfo1.Equals(deviceInfo2);
 
@@ -95,7 +95,8 @@ public struct POINT : IEquatable<POINT>
     /// <param name="deviceInfo1">Operand 1.</param>
     /// <param name="deviceInfo2">Operand 2.</param>
     /// <returns>
-    /// Returns <b>true</b> if <c>deviceInfo1</c> is not equal to <c>deviceInfo2</c>; <b>false</b> otherwise.</returns>
+    /// Returns <see langword="true"/> if <c>deviceInfo1</c> is not equal to <c>deviceInfo2</c>; otherwise <see langword="false"/>.
+    /// </returns>
     public static bool operator !=(POINT deviceInfo1, POINT deviceInfo2) => !deviceInfo1.Equals(deviceInfo2);
 
     #endregion
@@ -104,21 +105,10 @@ public struct POINT : IEquatable<POINT>
 
     #region public override methods
 
-    /// <summary>
-    /// Returns the hash code of the object.
-    /// </summary>
-    /// <returns>
-    /// Hash code.
-    /// </returns>
+    /// <inheritdoc/>
     public override int GetHashCode() => X ^ Y;
 
-    /// <summary>
-    /// Returns a value that indicates whether this object is equal to another.
-    /// </summary>
-    /// <param name="obj"> Object to compare.</param>
-    /// <returns>
-    /// Equality result.
-    /// </returns>
+    /// <inheritdoc/>
     public override bool Equals(object obj)
     {
         if (obj is not POINT other)
@@ -131,12 +121,7 @@ public struct POINT : IEquatable<POINT>
             other.Y == Y;
     }
 
-    /// <summary>
-    /// Returns a string that represents the current <see cref="POINT"/> object.
-    /// </summary>
-    /// <returns>
-    /// String representing the current <see cref="POINT"/> object.
-    /// </returns>
+    /// <inheritdoc/>
     public override string ToString() => $"X = {X}, Y = {Y}";
 
     #endregion
